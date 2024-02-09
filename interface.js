@@ -11,3 +11,5 @@ let [user1, user2, ...restUsers] = [{ name: 'ABC', id: 1, email: 'mail' },
     { name: 'sdf', id: 3, email: 'mail' },
     { name: 'john', id: 4, email: 'mail' }];
 console.log(restUsers);
+let result = restUsers.filter((user) => user.id > 3);
+console.log(result);
