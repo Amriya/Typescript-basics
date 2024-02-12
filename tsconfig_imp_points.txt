@@ -1,0 +1,3 @@
+--using "outDir":"./dist" //save js files seperately
+--sourceMap:true //to debug js code in browser,  already true in angular
+--"noEmit" // Gives no output
